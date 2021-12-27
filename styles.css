@@ -1,0 +1,134 @@
+/* CSS BOTH HTMLs */
+
+.buttons{
+    padding-top: 4%;
+}
+
+.categoryBtn{
+    background-color: '';
+}
+
+.categoryBtn:focus {     
+    background-color:#00CED1;  
+    color: #fff;  
+    border-color: none;
+}
+
+.deleteBtn{
+    border-color: white;
+    background-color: white;
+    border-style: solid;
+    float: right;
+}
+
+.deleteBtn:hover{
+    color:red;
+}
+
+.accessBtnSite{
+    border-color: none;
+    background-color: white;
+    border-style: solid;
+    float: left;
+    color: #00CED1;
+}
+
+.updateBtnSite{
+    border-color: none;
+    background-color: white;
+    border-style: solid;
+    float: center;
+    
+}
+
+.deleteBtnSite{
+    border-color: none;
+    background-color: white;
+    border-style: solid;
+    float: right;
+    
+}
+
+.deleteBtnSite:hover{
+    color:red;
+    
+}
+
+.randomizeBtn{
+    width: 50px;
+    height: 100%;
+    color: #696969;
+    background-color: white;
+    border-style:none;
+
+}
+
+.randomizeBtn:hover {     
+    color:#00CED1;  
+}
+
+.saveSiteBtn{
+    background-color: '';
+
+}
+
+.saveSiteBtn:hover {     
+    background-color:#00CED1;  
+    color: #fff;  
+    border-color: none;
+}
+
+.descriptionBox{
+    padding-top: 2%;
+}
+
+.formNewSite{
+    padding-top: 4%;
+}
+
+.passwordField:not(:hover){
+    color: transparent;
+     text-shadow: 0 0 5px rgba(0,0,0,0.8);
+}
+
+.container-fluid{
+    padding-left: 5%;
+    padding-right: 0%; 
+
+}
+
+.row{
+    padding-top: 2%;
+    
+}
+
+.col-2{
+    border-color: black;
+    
+}
+
+#myForm{
+    display:none;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.message .success{
+    font-size: 20px;
+    color: green;
+    position: absolute;
+    animation: buttons .3s linear;
+    display: none;
+}
+
+@keyframes buttons{
+    0%{
+        transform: scale(0.1);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
